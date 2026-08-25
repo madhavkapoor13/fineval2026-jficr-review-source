@@ -1,0 +1,7 @@
+.env
+.venv/
+cache/
+run_artifacts/
+submission.csv
+__pycache__/
+*.pyc

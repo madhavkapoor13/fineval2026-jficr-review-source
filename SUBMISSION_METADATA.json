@@ -1,0 +1,12 @@
+{
+  "team_name": "Maddies NLP",
+  "competition": "Multilingual Financial Language Understanding at EMNLP 2026",
+  "subtask": "Subtask 2: Japanese Implicit Communication Recognition",
+  "solution_type": "API-based agent/workflow",
+  "api_provider": "OpenRouter",
+  "model": "google/gemma-4-31b-it",
+  "model_url": "https://openrouter.ai/google/gemma-4-31b-it",
+  "model_total_parameters": "30.7B dense",
+  "public_leaderboard_accuracy": 0.9333,
+  "public_correct": "14/15"
+}

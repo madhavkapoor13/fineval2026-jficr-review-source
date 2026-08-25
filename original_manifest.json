@@ -1,0 +1,22 @@
+{
+  "run_id": "final_gemma_tagged_label_first_test_50",
+  "created_before_calls": "2026-08-17T19:13:00.672701+00:00",
+  "model": "google/gemma-4-31b-it",
+  "model_url": "https://openrouter.ai/google/gemma-4-31b-it",
+  "provider": "OpenRouter",
+  "architecture": "tagged Stage-1 evidence extraction + label-first Stage-2 adjudication",
+  "rows": 50,
+  "expected_ids": "253-302",
+  "workers": 4,
+  "temperature": 0,
+  "top_p": 1,
+  "seed": 20260811,
+  "hashes": {
+    "runner": "b7b37ae39411542d34fe36b7a3992418171e163a2c7bddefb3926f8dba083145",
+    "test_parquet": "860b0f44ef424d184efee35a080dfa25ca0df36cf7ead7aa25ad800300e3ee7d",
+    "config": "889a67bbf9e8d330e01064ce507183202a57d03a5621d4f4e19e41f89cf5527b",
+    "stage1_prompt": "2fceadf4effb7f7ca08c527aacd25ce48a18699123a102f43d39074828a4341e",
+    "stage2_prompt": "e2299b2b1f54a4c5880722f8e6ca80509f83b4315f6afcc6d773349d0b345ff5",
+    "repair_prompt": "c111b34febed6f5550ba1cd306af457099bccf25d0bf6c2347ef192fa0d2b55b"
+  }
+}

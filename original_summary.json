@@ -1,0 +1,17 @@
+{
+  "rows": 50,
+  "valid_predictions": 50,
+  "prediction_counts": {
+    "0": 12,
+    "+2": 11,
+    "+1": 10,
+    "-2": 9,
+    "-1": 8
+  },
+  "stage1_retries": 0,
+  "stage2_repairs": 0,
+  "api_calls": 100,
+  "cache_hits": 0,
+  "conservative_reserved_cost_usd": 0.49218300000000004,
+  "submission": "reference/submission.csv"
+}

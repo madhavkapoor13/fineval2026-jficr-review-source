@@ -1,0 +1,22 @@
+{
+  "model": "google/gemma-4-31b-it",
+  "model_url": "https://openrouter.ai/google/gemma-4-31b-it",
+  "openrouter_url": "https://openrouter.ai/api/v1/chat/completions",
+  "temperature": 0,
+  "top_p": 1,
+  "seed": 20260811,
+  "workers": 4,
+  "stage1_max_tokens": 1024,
+  "stage2_max_tokens": 256,
+  "repair_max_tokens": 32,
+  "provider": {
+    "order": [
+      "deepinfra/turbo",
+      "friendli"
+    ],
+    "only": [
+      "deepinfra/turbo",
+      "friendli"
+    ]
+  }
+}
